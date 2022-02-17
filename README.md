@@ -13,7 +13,7 @@
 
 - Clone/Download repo into local machine and extract it.
 - Open VS-code -> open folder then navigate to extracted repo.
-- Run command in VS-code terminal `npm install cypress --save-dev`.
+- Run command in VS-code terminal ` `.
 - To run cypress for the first time, either run custom command using VS-Code termial `npm run cy:open` (package.json) or `./node_modules/.bin/cypress open` to Open cypress test runner.
 - [Choose](https://ibb.co/HDHL3tF) browser from top right corder. Recommended _ELECTRON_. Cypress GUI runner.
 - To run test case using command line use `npm run *name of script*` or `npm run RunTests` to run all test from integration folder. _package.json_
@@ -24,7 +24,7 @@
 
 ### Things to consider while executing test case.
 
-- Important: resource will not be really updated on the server but it will be faked as if.
+- Important: resource will not be really updated on the server but it will be faked as if. `https://jsonplaceholder.typicode.com/`
 
 ---
 
