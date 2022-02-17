@@ -1,0 +1,36 @@
+{
+  "name": "cypress_automation",
+  "version": "1.0.0",
+  "description": "Automation using cypress for MLS",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "RunTests": "npm run test -- --reporter mochawesome --spec cypress/integration/*.js",
+    "TC001_apiTask": "npm run test -- --reporter mochawesome --spec cypress/integration/TC001_apiTask.js"
+  },
+  "keywords": [
+    "work_tejas1 cypress MLS API Automation"
+  ],
+  "author": "work_tejas1",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^6.0.0-alpha.5",
+    "chai": "^4.3.4",
+    "clipboardy": "^2.3.0",
+    "cypress": "^9.5.0",
+    "cypress-dark": "^1.8.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-multi-reporters": "^1.5.0",
+    "cypress-wait-until": "^1.7.1",
+    "cypress-xpath": "^1.6.2",
+    "mocha-junit-reporter": "^2.0.2",
+    "mochawesome": "^6.3.1",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^5.2.0",
+    "prettier": "2.5.1"
+  },
+  "dependencies": {
+    "mocha": "^8.4.0"
+  }
+}

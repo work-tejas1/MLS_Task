@@ -1,0 +1,17 @@
+{
+  "baseUrl": "https://www.marketlogicsoftware.com",
+  "theme": "dark",
+  "viewportWidth": 1900,
+  "viewportHeight": 1080,
+  "chromeWebSecurity": false,
+  "videoCompression": false,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "quite": true,
+    "overwrite": false,
+    "html": true,
+    "json": true
+  },
+  "hideXHR": true
+}
